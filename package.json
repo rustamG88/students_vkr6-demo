@@ -4,14 +4,14 @@
   "description": "Backend for Telegram Mini App - Corporate Task Management",
   "main": "server.js",
   "scripts": {
+    "postinstall": "echo 'skip postinstall'",
+    "build": "echo 'skip frontend build'",
     "start": "node server.js",
     "start:json": "node start-json.js",
     "dev": "nodemon server.js",
     "dev:json": "nodemon start-json.js",
     "db:init": "node database/init-db.js",
     "setup:railway": "node scripts/setup-railway.js",
-    "build": "cd frontend && npm install && npm run build",
-    "postinstall": "npm run build",
     "test": "echo \"No tests specified\" && exit 0"
   },
   "dependencies": {
