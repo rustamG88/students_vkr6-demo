@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Test Team",
+    "owner_id": 1,
+    "invite_code": "T1ZUD2",
+    "created_at": "2025-06-15T03:45:55.367Z",
+    "updated_at": "2025-06-15T03:45:55.367Z"
+  },
+  {
+    "id": 2,
+    "name": "Test Team",
+    "owner_id": 2,
+    "invite_code": "HVYBIM",
+    "created_at": "2025-06-15T03:53:04.766Z",
+    "updated_at": "2025-06-15T03:53:04.766Z"
+  },
+  {
+    "id": 3,
+    "name": "Test Team",
+    "owner_id": 3,
+    "invite_code": "968HRN",
+    "created_at": "2025-06-15T03:55:33.702Z",
+    "updated_at": "2025-06-15T03:55:33.702Z"
+  },
+  {
+    "id": 4,
+    "name": "Browser User Team",
+    "owner_id": 4,
+    "invite_code": "J7TF68",
+    "created_at": "2025-06-15T03:56:07.230Z",
+    "updated_at": "2025-06-15T03:56:07.230Z"
+  },
+  {
+    "id": 5,
+    "name": "Test Team",
+    "owner_id": 5,
+    "invite_code": "L240UJ",
+    "created_at": "2025-06-15T18:22:25.371Z",
+    "updated_at": "2025-06-15T18:22:25.371Z"
+  },
+  {
+    "id": 6,
+    "name": "Rustam Team",
+    "owner_id": 6,
+    "invite_code": "1JUXBY",
+    "created_at": "2025-06-15T18:23:42.133Z",
+    "updated_at": "2025-06-15T18:23:42.133Z"
+  },
+  {
+    "id": 7,
+    "name": "Test Team",
+    "owner_id": 7,
+    "invite_code": "L2M2KF",
+    "created_at": "2025-06-15T18:28:28.015Z",
+    "updated_at": "2025-06-15T18:28:28.015Z"
+  },
+  {
+    "id": 8,
+    "name": "Test Team",
+    "owner_id": 8,
+    "invite_code": "LROVSO",
+    "created_at": "2025-06-15T18:29:37.817Z",
+    "updated_at": "2025-06-15T18:29:37.817Z"
+  },
+  {
+    "id": 9,
+    "name": "куа",
+    "owner_id": 9,
+    "invite_code": "C742KM",
+    "created_at": "2025-06-15T19:01:50.126Z",
+    "updated_at": "2025-06-15T19:01:50.126Z"
+  }
+]

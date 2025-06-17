@@ -1,0 +1,139 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Dark theme (default) */
+  --bg-color: #000000;
+  --text-primary: #ffffff;
+  --text-secondary: #8e8e93;
+  --button-primary: #007aff;
+  --button-primary-pressed: #0056b3;
+  --border-color: #38383a;
+  --card-bg: #1c1c1e;
+  --separator: rgba(142, 142, 147, 0.16);
+}
+
+[data-theme="light"] {
+  --bg-color: #ffffff;
+  --text-primary: #000000;
+  --text-secondary: #6d6d70;
+  --button-primary: #007aff;
+  --button-primary-pressed: #0056b3;
+  --border-color: #c6c6c8;
+  --card-bg: #f2f2f7;
+  --separator: rgba(60, 60, 67, 0.16);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background: var(--bg-color);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  background: var(--bg-color);
+}
+
+/* Button styles */
+.btn {
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary {
+  background: var(--button-primary);
+  color: white;
+  padding: 16px 32px;
+  min-height: 50px;
+}
+
+.btn-primary:active {
+  background: var(--button-primary-pressed);
+  transform: scale(0.96);
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Text styles */
+.text-primary {
+  color: var(--text-primary);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+/* Layout utilities */
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+/* Animation utilities */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.slide-up-enter-active,
+.slide-up-leave-active {
+  transition: transform 0.3s ease;
+}
+
+.slide-up-enter-from,
+.slide-up-leave-to {
+  transform: translateY(100%);
+} 
