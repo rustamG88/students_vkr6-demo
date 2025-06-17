@@ -3,9 +3,12 @@
   "build": {
     "builder": "NIXPACKS"
   },
+  "buildCommand": "npm install",
+  "startCommand": "npm start",
+  "healthcheckPath": "/health",
   "deploy": {
     "startCommand": "npm start",
-    "healthcheckPath": "/auth/test",
+    "healthcheckPath": "/health",
     "healthcheckTimeout": 100,
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 10
